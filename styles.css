@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Champion HTF-Heavyweight Regular;
+  font-weight: 400;
+  src: url("font/Champion\ HTF-Heavyweight\ Regular.otf");
+}
+
+body {
+  margin: 0 auto;
+  max-width: 40em;
+  width: 88%;
+  font-family: Champion HTF-Heavyweight Regular, "Times New Roman", Times, serif;
+}
+
+.title {
+  text-align: center;
+  color: #2fbf03;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #fff400;
+}
+
+.quote {
+  text-align: center;
+  font-weight: lighter;
+  height: 7.8rem;
+  font-size: 1.2rem;
+}
+
+.btn {
+  text-align: center;
+}
+
+#get-quote {
+  font-family: inherit;
+  font-size: 1.2rem;
+  background-color: hsl(106, 97%, 38%);
+  color: #fff400;
+  cursor: pointer;
+  border: none;
+  padding: 0.4rem 0.8rem;
+}
+
+#get-quote:hover,
+#get-quote:active {
+  background-color: hsl(106, 97%, 28%);
+}
+
+#get-quote:focus {
+  outline: 3px solid #000;
+}
