@@ -14,7 +14,7 @@ body {
 .title {
   text-align: center;
   color: #2fbf03;
-  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-width: 0.05px;
   -webkit-text-stroke-color: #fff400;
 }
 
@@ -32,8 +32,8 @@ body {
 #get-quote {
   font-family: inherit;
   font-size: 1.2rem;
-  background-color: hsl(106, 97%, 38%);
-  color: #fff400;
+  background-color: hsl(180, 3%, 90%);
+
   cursor: pointer;
   border: none;
   padding: 0.4rem 0.8rem;
@@ -41,9 +41,5 @@ body {
 
 #get-quote:hover,
 #get-quote:active {
-  background-color: hsl(106, 97%, 28%);
-}
-
-#get-quote:focus {
-  outline: 3px solid #000;
+  background-color: hsl(180, 3%, 80%);
 }
